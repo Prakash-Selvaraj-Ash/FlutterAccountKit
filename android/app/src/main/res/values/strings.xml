@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">OruService</string>
+    <string name="FACEBOOK_APP_ID">2511892505501421</string>
+    <string name="ACCOUNT_KIT_CLIENT_TOKEN">da0ac5599cef34ab51a67965d4e8b02f</string>
+</resources>
