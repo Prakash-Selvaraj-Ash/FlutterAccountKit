@@ -13,9 +13,7 @@ class App extends StatefulWidget {
   State<StatefulWidget> createState() {
     return _AppState(fbAccountManager);
   }
-
 }
-
 
 class _AppState extends State {
   final FbAccountManager _fbAccountManager;
