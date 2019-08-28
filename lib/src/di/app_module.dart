@@ -5,9 +5,13 @@ import 'package:flutteraccountkit/src/category/webclient/category_service_client
 import 'package:flutteraccountkit/src/shared/sharedpreference_manger.dart';
 import 'package:inject/inject.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:firebase_messaging/firebase_messaging.dart';
 
 @module
 class AppModule{
+
+  @provide
+  FirebaseMessaging firebaseMessaging() => FirebaseMessaging();
 
   @provide
   @singleton
